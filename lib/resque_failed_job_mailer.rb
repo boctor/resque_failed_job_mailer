@@ -1,5 +1,4 @@
 require "resque_failed_job_mailer/version"
-require 'resque/server'
 require 'resque/failure/multiple'
 require 'resque/failure/redis'
 require 'action_mailer'
